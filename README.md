@@ -18,7 +18,7 @@ cp conf/zfs.conf /etc/zabbix/zabbix-agentd.d/
 At Configuration/Templates
 
 ## Add template to host
-
+Profit!
 
 # Credits
 
