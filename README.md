@@ -15,6 +15,10 @@ cp -a bin/zfs-discovery.sh /usr/local/bin
 cp conf/zfs.conf /etc/zabbix/zabbix-agentd.d/
 
 ## Import template to Zabbix
+At Configuration/Templates
+
+## Add template to host
+
 
 # Credits
 
