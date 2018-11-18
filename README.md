@@ -7,7 +7,7 @@ Works without sudo on Debian, YMMV. Tested on Zabbix 4.0.
 # Usage
 
 ## Clone this repo
-git clone https://github.com/thorro/zabbix-zfs.git
+git clone https://github.com/thorro/zabbix-zfs.git && cd zabbix-zfs
 
 ## Copy discovery script to bin dir
 cp -a bin/zfs-discovery.sh /usr/local/bin
