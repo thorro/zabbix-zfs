@@ -15,7 +15,13 @@ cp -a bin/zfs-discovery.sh /usr/local/bin
 /usr/local/bin/zfs-discovery.sh pooldisc
 
 ## Copy zabbix commands to zabbix config dir
-cp conf/zfs.conf /etc/zabbix/zabbix-agentd.d/
+cp conf/zfs.conf /etc/zabbix/zabbix_agentd.d
+
+## Restart Zabbix Agent
+service zabbix-agent restart
+
+## Test discovery
+zabbix_agentd -t "zfs.pool.discovery"
 
 ## Import template to Zabbix
 At Configuration/Templates
