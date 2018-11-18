@@ -6,10 +6,13 @@ Works without sudo on Debian, YMMV. Tested on Zabbix 4.0.
 
 # Usage
 
+## Clone this repo
+git clone https://github.com/thorro/zabbix-zfs.git
+
 ## Copy discovery script to bin dir
 cp -a bin/zfs-discovery.sh /usr/local/bin
 ### Try it out
-/usr/local/bin/zfs-discovery.sh
+/usr/local/bin/zfs-discovery.sh pooldisc
 
 ## Copy zabbix commands to zabbix config dir
 cp conf/zfs.conf /etc/zabbix/zabbix-agentd.d/
